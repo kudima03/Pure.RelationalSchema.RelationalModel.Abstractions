@@ -17,6 +17,6 @@
     <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.RelationalModel.Abstractions</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pure.RelationalSchema.Abstractions" Version="1.2.0" />
+    <PackageReference Include="Pure.Primitives.Abstractions" Version="4.3.0" />
   </ItemGroup>
 </Project>
