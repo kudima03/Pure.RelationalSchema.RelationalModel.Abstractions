@@ -35,7 +35,7 @@ This is an **interfaces-only NuGet library** — no implementations, no tests, n
 
 Entities reference each other via `IGuid` identifiers — no direct object graph, no circular dependencies. All primitive types (`IGuid`, `IString`, `IBool`) come from [`Pure.Primitives.Abstractions`](https://github.com/kudima03/Pure.Primitives.Abstractions).
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.1.0.0`. Breaking changes to the public API surface fail the build.
 
